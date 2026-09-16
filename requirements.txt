@@ -1,0 +1,9 @@
+geopandas
+shapely
+pyogrio
+pandas
+requests
+beautifulsoup4
+mercantile
+mapbox-vector-tile
+python-dotenv

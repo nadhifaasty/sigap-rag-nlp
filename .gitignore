@@ -1,0 +1,7 @@
+.env
+__pycache__/
+*.pyc
+data/_cache/
+data/konsesi/*.geojson
+data/spasial/*.geojson
+.venv/

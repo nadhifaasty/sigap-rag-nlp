@@ -1,0 +1,654 @@
+[
+ {
+  "area__ha": 1.38405,
+  "umd_glad_alerts__date": "2021-03-04"
+ },
+ {
+  "area__ha": 0.15378,
+  "umd_glad_alerts__date": "2021-03-11"
+ },
+ {
+  "area__ha": 0.46113000000000004,
+  "umd_glad_alerts__date": "2021-03-12"
+ },
+ {
+  "area__ha": 0.38446,
+  "umd_glad_alerts__date": "2021-03-19"
+ },
+ {
+  "area__ha": 0.30757,
+  "umd_glad_alerts__date": "2021-04-13"
+ },
+ {
+  "area__ha": 1.99911,
+  "umd_glad_alerts__date": "2021-04-21"
+ },
+ {
+  "area__ha": 0.07689,
+  "umd_glad_alerts__date": "2021-04-29"
+ },
+ {
+  "area__ha": 0.46135,
+  "umd_glad_alerts__date": "2021-05-15"
+ },
+ {
+  "area__ha": 0.07689,
+  "umd_glad_alerts__date": "2021-05-30"
+ },
+ {
+  "area__ha": 0.69152,
+  "umd_glad_alerts__date": "2021-05-31"
+ },
+ {
+  "area__ha": 7.68638,
+  "umd_glad_alerts__date": "2021-07-01"
+ },
+ {
+  "area__ha": 0.69195,
+  "umd_glad_alerts__date": "2021-07-10"
+ },
+ {
+  "area__ha": 0.38446,
+  "umd_glad_alerts__date": "2021-07-17"
+ },
+ {
+  "area__ha": 0.30757,
+  "umd_glad_alerts__date": "2021-07-18"
+ },
+ {
+  "area__ha": 0.07689,
+  "umd_glad_alerts__date": "2021-07-25"
+ },
+ {
+  "area__ha": 1.30716,
+  "umd_glad_alerts__date": "2021-07-26"
+ },
+ {
+  "area__ha": 0.38438,
+  "umd_glad_alerts__date": "2021-08-03"
+ },
+ {
+  "area__ha": 0.30757,
+  "umd_glad_alerts__date": "2021-08-11"
+ },
+ {
+  "area__ha": 0.15378,
+  "umd_glad_alerts__date": "2021-09-20"
+ },
+ {
+  "area__ha": 1.53762,
+  "umd_glad_alerts__date": "2021-09-27"
+ },
+ {
+  "area__ha": 0.07682,
+  "umd_glad_alerts__date": "2021-09-28"
+ },
+ {
+  "area__ha": 1.76687,
+  "umd_glad_alerts__date": "2021-10-05"
+ },
+ {
+  "area__ha": 0.6915899999999999,
+  "umd_glad_alerts__date": "2021-10-14"
+ },
+ {
+  "area__ha": 3.53374,
+  "umd_glad_alerts__date": "2021-11-06"
+ },
+ {
+  "area__ha": 2.91917,
+  "umd_glad_alerts__date": "2021-11-07"
+ },
+ {
+  "area__ha": 0.2306,
+  "umd_glad_alerts__date": "2021-11-22"
+ },
+ {
+  "area__ha": 14.82676,
+  "umd_glad_alerts__date": "2021-12-17"
+ },
+ {
+  "area__ha": 0.15364,
+  "umd_glad_alerts__date": "2021-12-24"
+ },
+ {
+  "area__ha": 0.38446,
+  "umd_glad_alerts__date": "2022-02-02"
+ },
+ {
+  "area__ha": 2.46053,
+  "umd_glad_alerts__date": "2022-03-14"
+ },
+ {
+  "area__ha": 1.38405,
+  "umd_glad_alerts__date": "2022-03-15"
+ },
+ {
+  "area__ha": 8.38033,
+  "umd_glad_alerts__date": "2022-03-31"
+ },
+ {
+  "area__ha": 0.15378,
+  "umd_glad_alerts__date": "2022-04-07"
+ },
+ {
+  "area__ha": 0.9227,
+  "umd_glad_alerts__date": "2022-05-18"
+ },
+ {
+  "area__ha": 1.9222899999999998,
+  "umd_glad_alerts__date": "2022-06-03"
+ },
+ {
+  "area__ha": 0.61463,
+  "umd_glad_alerts__date": "2022-06-19"
+ },
+ {
+  "area__ha": 0.53809,
+  "umd_glad_alerts__date": "2022-07-05"
+ },
+ {
+  "area__ha": 0.15378,
+  "umd_glad_alerts__date": "2022-07-12"
+ },
+ {
+  "area__ha": 0.15378,
+  "umd_glad_alerts__date": "2022-07-21"
+ },
+ {
+  "area__ha": 0.30757,
+  "umd_glad_alerts__date": "2022-08-06"
+ },
+ {
+  "area__ha": 0.15378,
+  "umd_glad_alerts__date": "2022-08-22"
+ },
+ {
+  "area__ha": 0.15378,
+  "umd_glad_alerts__date": "2022-08-31"
+ },
+ {
+  "area__ha": 0.99959,
+  "umd_glad_alerts__date": "2022-09-07"
+ },
+ {
+  "area__ha": 0.15364,
+  "umd_glad_alerts__date": "2022-12-11"
+ },
+ {
+  "area__ha": 0.23067,
+  "umd_glad_alerts__date": "2022-12-12"
+ },
+ {
+  "area__ha": 0.38446,
+  "umd_glad_alerts__date": "2022-12-19"
+ },
+ {
+  "area__ha": 0.07689,
+  "umd_glad_alerts__date": "2023-01-04"
+ },
+ {
+  "area__ha": 3.9197599999999997,
+  "umd_glad_alerts__date": "2023-04-11"
+ },
+ {
+  "area__ha": 0.23067,
+  "umd_glad_alerts__date": "2023-05-04"
+ },
+ {
+  "area__ha": 0.07689,
+  "umd_glad_alerts__date": "2023-05-05"
+ },
+ {
+  "area__ha": 0.46135,
+  "umd_glad_alerts__date": "2023-05-12"
+ },
+ {
+  "area__ha": 0.23053,
+  "umd_glad_alerts__date": "2023-05-13"
+ },
+ {
+  "area__ha": 0.7682,
+  "umd_glad_alerts__date": "2023-05-21"
+ },
+ {
+  "area__ha": 0.61513,
+  "umd_glad_alerts__date": "2023-05-28"
+ },
+ {
+  "area__ha": 0.6151300000000001,
+  "umd_glad_alerts__date": "2023-05-29"
+ },
+ {
+  "area__ha": 7.61227,
+  "umd_glad_alerts__date": "2023-06-06"
+ },
+ {
+  "area__ha": 1.61429,
+  "umd_glad_alerts__date": "2023-06-14"
+ },
+ {
+  "area__ha": 0.38446,
+  "umd_glad_alerts__date": "2023-06-21"
+ },
+ {
+  "area__ha": 5.2260599999999995,
+  "umd_glad_alerts__date": "2023-06-22"
+ },
+ {
+  "area__ha": 0.07682,
+  "umd_glad_alerts__date": "2023-07-16"
+ },
+ {
+  "area__ha": 6.4589,
+  "umd_glad_alerts__date": "2023-07-24"
+ },
+ {
+  "area__ha": 0.15378,
+  "umd_glad_alerts__date": "2023-07-31"
+ },
+ {
+  "area__ha": 8.8409,
+  "umd_glad_alerts__date": "2023-08-01"
+ },
+ {
+  "area__ha": 0.38446,
+  "umd_glad_alerts__date": "2023-08-08"
+ },
+ {
+  "area__ha": 10.76312,
+  "umd_glad_alerts__date": "2023-08-09"
+ },
+ {
+  "area__ha": 0.61513,
+  "umd_glad_alerts__date": "2023-08-16"
+ },
+ {
+  "area__ha": 10.76276,
+  "umd_glad_alerts__date": "2023-08-17"
+ },
+ {
+  "area__ha": 0.07689,
+  "umd_glad_alerts__date": "2023-08-24"
+ },
+ {
+  "area__ha": 5.07321,
+  "umd_glad_alerts__date": "2023-08-25"
+ },
+ {
+  "area__ha": 26.436040000000002,
+  "umd_glad_alerts__date": "2023-09-02"
+ },
+ {
+  "area__ha": 4.22818,
+  "umd_glad_alerts__date": "2023-09-10"
+ },
+ {
+  "area__ha": 5.53163,
+  "umd_glad_alerts__date": "2023-09-18"
+ },
+ {
+  "area__ha": 3.9214,
+  "umd_glad_alerts__date": "2023-09-25"
+ },
+ {
+  "area__ha": 49.01795,
+  "umd_glad_alerts__date": "2023-09-26"
+ },
+ {
+  "area__ha": 96.81824999999999,
+  "umd_glad_alerts__date": "2023-10-20"
+ },
+ {
+  "area__ha": 48.44172,
+  "umd_glad_alerts__date": "2023-10-27"
+ },
+ {
+  "area__ha": 191.60481000000001,
+  "umd_glad_alerts__date": "2023-10-28"
+ },
+ {
+  "area__ha": 0.46135,
+  "umd_glad_alerts__date": "2023-11-04"
+ },
+ {
+  "area__ha": 100.13114,
+  "umd_glad_alerts__date": "2023-11-05"
+ },
+ {
+  "area__ha": 0.38446,
+  "umd_glad_alerts__date": "2023-11-12"
+ },
+ {
+  "area__ha": 0.46099,
+  "umd_glad_alerts__date": "2023-11-13"
+ },
+ {
+  "area__ha": 0.61513,
+  "umd_glad_alerts__date": "2023-11-20"
+ },
+ {
+  "area__ha": 13.295480000000001,
+  "umd_glad_alerts__date": "2023-11-21"
+ },
+ {
+  "area__ha": 1.22969,
+  "umd_glad_alerts__date": "2023-11-29"
+ },
+ {
+  "area__ha": 0.3841,
+  "umd_glad_alerts__date": "2023-12-23"
+ },
+ {
+  "area__ha": 0.30757,
+  "umd_glad_alerts__date": "2023-12-30"
+ },
+ {
+  "area__ha": 0.07689,
+  "umd_glad_alerts__date": "2024-02-16"
+ },
+ {
+  "area__ha": 0.53824,
+  "umd_glad_alerts__date": "2024-02-24"
+ },
+ {
+  "area__ha": 17.13094,
+  "umd_glad_alerts__date": "2024-03-20"
+ },
+ {
+  "area__ha": 2.38364,
+  "umd_glad_alerts__date": "2024-04-04"
+ },
+ {
+  "area__ha": 0.46135,
+  "umd_glad_alerts__date": "2024-04-05"
+ },
+ {
+  "area__ha": 0.30757,
+  "umd_glad_alerts__date": "2024-04-28"
+ },
+ {
+  "area__ha": 31.210729999999998,
+  "umd_glad_alerts__date": "2024-05-07"
+ },
+ {
+  "area__ha": 6.611040000000001,
+  "umd_glad_alerts__date": "2024-05-15"
+ },
+ {
+  "area__ha": 0.15378,
+  "umd_glad_alerts__date": "2024-06-08"
+ },
+ {
+  "area__ha": 1.15337,
+  "umd_glad_alerts__date": "2024-06-15"
+ },
+ {
+  "area__ha": 1.8454,
+  "umd_glad_alerts__date": "2024-06-16"
+ },
+ {
+  "area__ha": 2.69121,
+  "umd_glad_alerts__date": "2024-07-17"
+ },
+ {
+  "area__ha": 30.503100000000003,
+  "umd_glad_alerts__date": "2024-07-18"
+ },
+ {
+  "area__ha": 3.30634,
+  "umd_glad_alerts__date": "2024-07-25"
+ },
+ {
+  "area__ha": 44.48961,
+  "umd_glad_alerts__date": "2024-07-26"
+ },
+ {
+  "area__ha": 8.68334,
+  "umd_glad_alerts__date": "2024-08-03"
+ },
+ {
+  "area__ha": 19.59075,
+  "umd_glad_alerts__date": "2024-08-11"
+ },
+ {
+  "area__ha": 4.9936799999999995,
+  "umd_glad_alerts__date": "2024-08-19"
+ },
+ {
+  "area__ha": 0.84581,
+  "umd_glad_alerts__date": "2024-08-26"
+ },
+ {
+  "area__ha": 0.69202,
+  "umd_glad_alerts__date": "2024-09-03"
+ },
+ {
+  "area__ha": 5.30552,
+  "umd_glad_alerts__date": "2024-09-11"
+ },
+ {
+  "area__ha": 9.76203,
+  "umd_glad_alerts__date": "2024-09-12"
+ },
+ {
+  "area__ha": 0.69202,
+  "umd_glad_alerts__date": "2024-09-19"
+ },
+ {
+  "area__ha": 8.98891,
+  "umd_glad_alerts__date": "2024-09-20"
+ },
+ {
+  "area__ha": 9.066510000000001,
+  "umd_glad_alerts__date": "2024-09-28"
+ },
+ {
+  "area__ha": 7.60686,
+  "umd_glad_alerts__date": "2024-10-06"
+ },
+ {
+  "area__ha": 0.92191,
+  "umd_glad_alerts__date": "2024-10-22"
+ },
+ {
+  "area__ha": 1.76687,
+  "umd_glad_alerts__date": "2024-10-30"
+ },
+ {
+  "area__ha": 0.53788,
+  "umd_glad_alerts__date": "2024-11-07"
+ },
+ {
+  "area__ha": 2.38328,
+  "umd_glad_alerts__date": "2024-11-15"
+ },
+ {
+  "area__ha": 3.68986,
+  "umd_glad_alerts__date": "2025-03-31"
+ },
+ {
+  "area__ha": 0.46135,
+  "umd_glad_alerts__date": "2025-04-07"
+ },
+ {
+  "area__ha": 2.45825,
+  "umd_glad_alerts__date": "2025-04-08"
+ },
+ {
+  "area__ha": 0.38446,
+  "umd_glad_alerts__date": "2025-05-01"
+ },
+ {
+  "area__ha": 0.07689,
+  "umd_glad_alerts__date": "2025-05-02"
+ },
+ {
+  "area__ha": 44.72911,
+  "umd_glad_alerts__date": "2025-05-18"
+ },
+ {
+  "area__ha": 0.53824,
+  "umd_glad_alerts__date": "2025-05-25"
+ },
+ {
+  "area__ha": 0.69202,
+  "umd_glad_alerts__date": "2025-06-10"
+ },
+ {
+  "area__ha": 16.51645,
+  "umd_glad_alerts__date": "2025-06-11"
+ },
+ {
+  "area__ha": 0.53824,
+  "umd_glad_alerts__date": "2025-06-18"
+ },
+ {
+  "area__ha": 0.46135,
+  "umd_glad_alerts__date": "2025-06-26"
+ },
+ {
+  "area__ha": 12.446250000000001,
+  "umd_glad_alerts__date": "2025-06-27"
+ },
+ {
+  "area__ha": 3.92147,
+  "umd_glad_alerts__date": "2025-07-12"
+ },
+ {
+  "area__ha": 6.9198900000000005,
+  "umd_glad_alerts__date": "2025-07-13"
+ },
+ {
+  "area__ha": 1.38405,
+  "umd_glad_alerts__date": "2025-07-20"
+ },
+ {
+  "area__ha": 13.52836,
+  "umd_glad_alerts__date": "2025-07-21"
+ },
+ {
+  "area__ha": 10.76028,
+  "umd_glad_alerts__date": "2025-07-29"
+ },
+ {
+  "area__ha": 0.23067,
+  "umd_glad_alerts__date": "2025-08-05"
+ },
+ {
+  "area__ha": 0.07682,
+  "umd_glad_alerts__date": "2025-08-06"
+ },
+ {
+  "area__ha": 0.46135,
+  "umd_glad_alerts__date": "2025-08-13"
+ },
+ {
+  "area__ha": 0.61456,
+  "umd_glad_alerts__date": "2025-08-14"
+ },
+ {
+  "area__ha": 1.53677,
+  "umd_glad_alerts__date": "2025-08-30"
+ },
+ {
+  "area__ha": 0.76892,
+  "umd_glad_alerts__date": "2025-09-22"
+ },
+ {
+  "area__ha": 0.99924,
+  "umd_glad_alerts__date": "2025-09-23"
+ },
+ {
+  "area__ha": 0.38446,
+  "umd_glad_alerts__date": "2025-09-30"
+ },
+ {
+  "area__ha": 0.15364,
+  "umd_glad_alerts__date": "2025-10-01"
+ },
+ {
+  "area__ha": 0.15378,
+  "umd_glad_alerts__date": "2025-10-08"
+ },
+ {
+  "area__ha": 0.07689,
+  "umd_glad_alerts__date": "2025-11-25"
+ },
+ {
+  "area__ha": 2.38364,
+  "umd_glad_alerts__date": "2026-03-17"
+ },
+ {
+  "area__ha": 0.38446,
+  "umd_glad_alerts__date": "2026-03-25"
+ },
+ {
+  "area__ha": 19.52741,
+  "umd_glad_alerts__date": "2026-04-11"
+ },
+ {
+  "area__ha": 0.15378,
+  "umd_glad_alerts__date": "2026-04-19"
+ },
+ {
+  "area__ha": 0.9227,
+  "umd_glad_alerts__date": "2026-04-26"
+ },
+ {
+  "area__ha": 6.91775,
+  "umd_glad_alerts__date": "2026-05-21"
+ },
+ {
+  "area__ha": 0.15378,
+  "umd_glad_alerts__date": "2026-05-28"
+ },
+ {
+  "area__ha": 2.07607,
+  "umd_glad_alerts__date": "2026-06-05"
+ },
+ {
+  "area__ha": 1.8448900000000001,
+  "umd_glad_alerts__date": "2026-06-06"
+ },
+ {
+  "area__ha": 2.22914,
+  "umd_glad_alerts__date": "2026-06-14"
+ },
+ {
+  "area__ha": 2.7681,
+  "umd_glad_alerts__date": "2026-06-21"
+ },
+ {
+  "area__ha": 9.29983,
+  "umd_glad_alerts__date": "2026-06-22"
+ },
+ {
+  "area__ha": 0.46134,
+  "umd_glad_alerts__date": "2026-06-30"
+ },
+ {
+  "area__ha": 0.61513,
+  "umd_glad_alerts__date": "2026-07-07"
+ },
+ {
+  "area__ha": 17.526670000000003,
+  "umd_glad_alerts__date": "2026-07-08"
+ },
+ {
+  "area__ha": 1.92229,
+  "umd_glad_alerts__date": "2026-07-15"
+ },
+ {
+  "area__ha": 15.91187,
+  "umd_glad_alerts__date": "2026-07-16"
+ },
+ {
+  "area__ha": 0.30757,
+  "umd_glad_alerts__date": "2026-07-23"
+ },
+ {
+  "area__ha": 24.36729,
+  "umd_glad_alerts__date": "2026-07-24"
+ }
+]
