@@ -1,18 +1,50 @@
 [
   {
-    "question": "Apa syarat yang harus dipenuhi pemegang IUPHHK-HT sebelum memanen kayu?",
-    "ground_truth": "Pemegang IUPHHK-HT wajib memiliki Rencana Kerja Usaha (RKU) yang disahkan Menteri sebelum memulai kegiatan pemanenan hasil hutan kayu (PP 23/2021 Pasal 26)."
+    "id": "pp23_2021_ps26",
+    "text": "Pemegang IUPHHK-HT wajib memiliki Rencana Kerja Usaha (RKU) yang disahkan oleh Menteri sebelum memulai kegiatan pemanenan hasil hutan kayu.",
+    "metadata": {
+      "jenis_regulasi": "PP",
+      "wilayah": "nasional",
+      "status": "berlaku",
+      "nomor": "PP 23/2021",
+      "pasal": "Pasal 26",
+      "tanggal": "2021-02-02"
+    }
   },
   {
-    "question": "Kapan usaha perkebunan sawit wajib memiliki AMDAL?",
-    "ground_truth": "Usaha perkebunan kelapa sawit dengan luas di atas 3.000 hektar wajib memiliki AMDAL (PP 22/2021 Pasal 4)."
+    "id": "pp22_2021_ps4",
+    "text": "Setiap usaha dan/atau kegiatan yang berdampak penting terhadap lingkungan hidup, termasuk perkebunan kelapa sawit dengan luas di atas 3.000 hektar, wajib memiliki Analisis Mengenai Dampak Lingkungan Hidup (AMDAL).",
+    "metadata": {
+      "jenis_regulasi": "PP",
+      "wilayah": "nasional",
+      "status": "berlaku",
+      "nomor": "PP 22/2021",
+      "pasal": "Pasal 4",
+      "tanggal": "2021-02-02"
+    }
   },
   {
-    "question": "Apa syarat tambahan dokumen lingkungan untuk perkebunan sawit di Provinsi Riau?",
-    "ground_truth": "Selain syarat AMDAL nasional, usaha perkebunan sawit di Riau wajib menyertakan kajian dampak terhadap gambut pada dokumen lingkungan (Perda Riau No. X/2019 Pasal 7)."
+    "id": "perda_riau_x_ps7",
+    "text": "Selain persyaratan AMDAL sebagaimana diatur peraturan perundang-undangan, usaha perkebunan sawit di Provinsi Riau wajib menyertakan kajian dampak terhadap gambut pada dokumen lingkungan.",
+    "metadata": {
+      "jenis_regulasi": "Perda",
+      "wilayah": "Riau",
+      "status": "berlaku",
+      "nomor": "Perda Riau No. X/2019",
+      "pasal": "Pasal 7",
+      "tanggal": "2019-06-10"
+    }
   },
   {
-    "question": "Apa kewajiban pemegang izin usaha pertambangan sebelum mulai berproduksi?",
-    "ground_truth": "Pemegang IUP wajib melakukan reklamasi dan pascatambang sesuai rencana yang telah disetujui sebelum melakukan kegiatan produksi (UU 3/2020 Pasal 35)."
+    "id": "uu_minerba_ps35",
+    "text": "Pemegang Izin Usaha Pertambangan (IUP) wajib melakukan reklamasi dan pascatambang sesuai rencana yang telah disetujui, sebelum melakukan kegiatan produksi.",
+    "metadata": {
+      "jenis_regulasi": "UU",
+      "wilayah": "nasional",
+      "status": "berlaku",
+      "nomor": "UU 3/2020",
+      "pasal": "Pasal 35",
+      "tanggal": "2020-06-10"
+    }
   }
 ]

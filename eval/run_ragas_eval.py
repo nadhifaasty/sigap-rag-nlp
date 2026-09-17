@@ -12,6 +12,12 @@ Kalau ada error seperti ini: ModuleNotFoundError: No module named 'langchain_com
 
 Jalankan: pip install "langchain-community<0.4.2" --force-reinstall
 
+Estimasi waktu: ~10 menit (tergantung koneksi & kecepatan GPU Claude).
+
+Ganti ke Gemini AI, jalankan code ini:
+pip uninstall anthropic langchain-anthropic -y
+pip install google-genai python-dotenv "langchain-google-genai>=2.0" "langchain-community<0.4.2"
+
 """
 
 from __future__ import annotations
@@ -24,7 +30,8 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
  
-from langchain_anthropic import ChatAnthropic
+from dotenv import load_dotenv
+from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_huggingface import HuggingFaceEmbeddings
 from ragas import EvaluationDataset, SingleTurnSample, evaluate
 from ragas.embeddings import LangchainEmbeddingsWrapper
@@ -33,6 +40,8 @@ from ragas.metrics import Faithfulness, LLMContextPrecisionWithReference, LLMCon
  
 from src.llm import answer_question
 from src.vectorstore import RegulasiStore
+ 
+load_dotenv()
  
 EVAL_DIR = Path(__file__).resolve().parent
 EVAL_SET_PATH = EVAL_DIR / "eval_dataset.json"
@@ -63,7 +72,7 @@ def build_ragas_dataset(store: RegulasiStore) -> EvaluationDataset:
         hits = store.query(question, n_results=5)
         contexts = [h["text"] for h in hits]
         answer = answer_question(question, hits, EMPTY_SPATIAL_CTX)
-        print(f"[eval] Q: {question}\n       A: {answer[:120]}...\n")
+        print(f"[eval] Q: {question}\n       A: {answer}\n")
         samples.append(
             SingleTurnSample(
                 user_input=question,
@@ -82,7 +91,7 @@ def main() -> None:
     dataset = build_ragas_dataset(store)
  
     judge_llm = LangchainLLMWrapper(
-        ChatAnthropic(model="claude-sonnet-4-6", api_key=os.getenv("ANTHROPIC_API_KEY"))
+        ChatGoogleGenerativeAI(model="gemini-3.6-flash", google_api_key=os.getenv("GEMINI_API_KEY"))
     )
     judge_emb = LangchainEmbeddingsWrapper(
         HuggingFaceEmbeddings(model_name="intfloat/multilingual-e5-large")
@@ -109,3 +118,4 @@ def main() -> None:
  
 if __name__ == "__main__":
     main()
+ 
