@@ -1,9 +1,3 @@
-"""Pemanggilan LLM (Claude) dengan system prompt ketat anti-halusinasi.
-
-System prompt persis mengikuti rancangan di Ide Tugas RAG §4 — jangan diubah
-tanpa alasan kuat, karena ini mitigasi utama supaya sistem tidak menuduh
-'pelanggaran' secara pasti.
-"""
 from __future__ import annotations
 
 import os

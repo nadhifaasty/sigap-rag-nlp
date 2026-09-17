@@ -1,6 +1,6 @@
-"""Hybrid retriever (Tahap 2 & 3 dari desain — Ide Tugas RAG §3.4).
+"""Hybrid retriever
 
-Tahap 1 (modul Orang 2, sudah ada kontraknya di rag_context_for_point):
+Tahap 1 (di rag_context_for_point):
     koordinat -> siapa pemegang izin di titik itu (spatial_ctx).
 Tahap 2 (di sini):
     spatial_ctx dipakai sbg keyword-filter utk cari regulasi relevan —

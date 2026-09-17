@@ -1,9 +1,3 @@
-"""Embedding wrapper untuk teks regulasi (multilingual).
- 
-Model default: intfloat/multilingual-e5-large (alternatif: BAAI/bge-m3).
-Model E5 butuh prefix "query: " / "passage: " agar hasil retrieval akurat —
-ditangani otomatis di sini.
-"""
 from __future__ import annotations
  
 from functools import lru_cache

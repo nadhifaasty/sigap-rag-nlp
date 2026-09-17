@@ -1,0 +1,18 @@
+[
+  {
+    "question": "Apa syarat yang harus dipenuhi pemegang IUPHHK-HT sebelum memanen kayu?",
+    "ground_truth": "Pemegang IUPHHK-HT wajib memiliki Rencana Kerja Usaha (RKU) yang disahkan Menteri sebelum memulai kegiatan pemanenan hasil hutan kayu (PP 23/2021 Pasal 26)."
+  },
+  {
+    "question": "Kapan usaha perkebunan sawit wajib memiliki AMDAL?",
+    "ground_truth": "Usaha perkebunan kelapa sawit dengan luas di atas 3.000 hektar wajib memiliki AMDAL (PP 22/2021 Pasal 4)."
+  },
+  {
+    "question": "Apa syarat tambahan dokumen lingkungan untuk perkebunan sawit di Provinsi Riau?",
+    "ground_truth": "Selain syarat AMDAL nasional, usaha perkebunan sawit di Riau wajib menyertakan kajian dampak terhadap gambut pada dokumen lingkungan (Perda Riau No. X/2019 Pasal 7)."
+  },
+  {
+    "question": "Apa kewajiban pemegang izin usaha pertambangan sebelum mulai berproduksi?",
+    "ground_truth": "Pemegang IUP wajib melakukan reklamasi dan pascatambang sesuai rencana yang telah disetujui sebelum melakukan kegiatan produksi (UU 3/2020 Pasal 35)."
+  }
+]

@@ -1,15 +1,3 @@
-"""Wrapper ChromaDB untuk chunk regulasi (per Pasal/Ayat).
-
-Metadata WAJIB per chunk (field ini sudah tersedia langsung dari respons
-pasal.id — lihat modul Orang 1):
-    jenis_regulasi   e.g. "UU", "PP", "Perpres", "Permen", "Perda"
-    wilayah          e.g. "nasional", "Riau", "Kapuas Hulu"
-    status           "berlaku" | "dicabut" | "diubah"
-    nomor            nomor regulasi, e.g. "PP 23/2021"
-    pasal            e.g. "Pasal 12"
-Opsional tapi dipakai retriever.py untuk cross-check tanggal:
-    tanggal          tanggal terbit/berlaku, format ISO "YYYY-MM-DD"
-"""
 from __future__ import annotations
 
 from pathlib import Path

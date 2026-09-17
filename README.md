@@ -73,6 +73,10 @@ src/
   gfw_client.py   # client GFW Data API v2 + zonal analysis
   geo_engine.py   # GeoEngine: load geojson, STRtree, locate/nearest
   context.py      # API publik Orang 3/4
+  embedder.py
+  vectorize.py
+  retriever.py
+  llm.py
 data/
   konsesi/        # *.geojson sumber konsesi (di-gitignore)
   spasial/        # sample statistik deforestasi
@@ -82,4 +86,7 @@ scripts/
 eval/
   validate_spatial.py   # precision/recall/F1 (FWI)
   demo_rag_context.py   # contoh output kontrak
+  eval_dataset.json
+  eval_courpus.json
+  run_ragas_eval.py     # evaluasi RAGAS
 ```
