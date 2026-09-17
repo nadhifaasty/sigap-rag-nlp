@@ -5,3 +5,4 @@ data/_cache/
 data/konsesi/*.geojson
 data/spasial/*.geojson
 .venv/
+ragas_result.json

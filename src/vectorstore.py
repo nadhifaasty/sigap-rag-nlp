@@ -1,18 +1,18 @@
 from __future__ import annotations
-
+ 
 from pathlib import Path
 from typing import Any
-
+ 
 import chromadb
-
+ 
 from .embedder import get_embedder
-
+ 
 DEFAULT_PERSIST_DIR = Path(__file__).resolve().parent.parent / "data" / "chroma"
 COLLECTION_NAME = "regulasi_lingkungan"
-
+ 
 REQUIRED_META = {"jenis_regulasi", "wilayah", "status", "nomor", "pasal"}
-
-
+ 
+ 
 class RegulasiStore:
     def __init__(self, persist_dir: str | Path = DEFAULT_PERSIST_DIR, model_name: str | None = None):
         Path(persist_dir).mkdir(parents=True, exist_ok=True)
@@ -21,11 +21,16 @@ class RegulasiStore:
             COLLECTION_NAME, metadata={"hnsw:space": "cosine"}
         )
         self.embedder = get_embedder(model_name) if model_name else get_embedder()
-
+ 
     def add_chunks(self, chunks: list[dict[str, Any]]) -> int:
         """chunks: [{"id": str, "text": str, "metadata": {...}}, ...]"""
         ids, texts, metas = [], [], []
-        for c in chunks:
+        for i, c in enumerate(chunks):
+            if "metadata" not in c:
+                raise ValueError(
+                    f"chunk index {i} (id={c.get('id', '?')}) tidak punya key 'metadata'. "
+                    f"Keys yang ada: {list(c.keys())}"
+                )
             missing = REQUIRED_META - set(c["metadata"])
             if missing:
                 raise ValueError(f"chunk {c.get('id')} kurang metadata: {missing}")
@@ -35,7 +40,7 @@ class RegulasiStore:
         embeddings = self.embedder.embed_passages(texts)
         self.collection.upsert(ids=ids, documents=texts, metadatas=metas, embeddings=embeddings.tolist())
         return len(ids)
-
+ 
     def query(self, question: str, n_results: int = 5, where: dict[str, Any] | None = None) -> list[dict[str, Any]]:
         q_emb = self.embedder.embed_query(question)
         res = self.collection.query(query_embeddings=[q_emb.tolist()], n_results=n_results, where=where)
@@ -50,6 +55,6 @@ class RegulasiStore:
                 }
             )
         return out
-
+ 
     def count(self) -> int:
         return self.collection.count()
