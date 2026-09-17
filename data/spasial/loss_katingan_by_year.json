@@ -1,106 +1,33 @@
-[
- {
-  "umd_tree_cover_loss__year": 2001,
-  "area__ha": 120.27417
+{
+ "source": "GFW (UMD tree cover loss, GLAD alerts) via zonal analysis",
+ "loss_ha_total": 90886.0,
+ "loss_ha_by_year": {
+  "2001": 120.3,
+  "2002": 1445.5,
+  "2003": 11362.3,
+  "2004": 1718.4,
+  "2005": 666.7,
+  "2006": 367.4,
+  "2007": 9649.5,
+  "2008": 668.6,
+  "2009": 2333.6,
+  "2010": 1013.3,
+  "2011": 2010.2,
+  "2012": 2656.9,
+  "2013": 736.9,
+  "2014": 4990.0,
+  "2015": 6025.7,
+  "2016": 37249.9,
+  "2017": 393.4,
+  "2018": 601.2,
+  "2019": 1967.8,
+  "2020": 458.7,
+  "2021": 192.6,
+  "2022": 325.5,
+  "2023": 2609.8,
+  "2024": 760.3,
+  "2025": 561.5
  },
- {
-  "umd_tree_cover_loss__year": 2002,
-  "area__ha": 1445.53315
- },
- {
-  "umd_tree_cover_loss__year": 2003,
-  "area__ha": 11362.26139
- },
- {
-  "umd_tree_cover_loss__year": 2004,
-  "area__ha": 1718.3797
- },
- {
-  "umd_tree_cover_loss__year": 2005,
-  "area__ha": 666.67782
- },
- {
-  "umd_tree_cover_loss__year": 2006,
-  "area__ha": 367.43277
- },
- {
-  "umd_tree_cover_loss__year": 2007,
-  "area__ha": 9649.51606
- },
- {
-  "umd_tree_cover_loss__year": 2008,
-  "area__ha": 668.61739
- },
- {
-  "umd_tree_cover_loss__year": 2009,
-  "area__ha": 2333.64768
- },
- {
-  "umd_tree_cover_loss__year": 2010,
-  "area__ha": 1013.26129
- },
- {
-  "umd_tree_cover_loss__year": 2011,
-  "area__ha": 2010.24194
- },
- {
-  "umd_tree_cover_loss__year": 2012,
-  "area__ha": 2656.93176
- },
- {
-  "umd_tree_cover_loss__year": 2013,
-  "area__ha": 736.9088800000001
- },
- {
-  "umd_tree_cover_loss__year": 2014,
-  "area__ha": 4989.97992
- },
- {
-  "umd_tree_cover_loss__year": 2015,
-  "area__ha": 6025.65326
- },
- {
-  "umd_tree_cover_loss__year": 2016,
-  "area__ha": 37249.861730000004
- },
- {
-  "umd_tree_cover_loss__year": 2017,
-  "area__ha": 393.44944
- },
- {
-  "umd_tree_cover_loss__year": 2018,
-  "area__ha": 601.1791000000001
- },
- {
-  "umd_tree_cover_loss__year": 2019,
-  "area__ha": 1967.82318
- },
- {
-  "umd_tree_cover_loss__year": 2020,
-  "area__ha": 458.71816
- },
- {
-  "umd_tree_cover_loss__year": 2021,
-  "area__ha": 192.58172
- },
- {
-  "umd_tree_cover_loss__year": 2022,
-  "area__ha": 325.47839
- },
- {
-  "umd_tree_cover_loss__year": 2023,
-  "area__ha": 2609.77427
- },
- {
-  "umd_tree_cover_loss__year": 2024,
-  "area__ha": 760.3284699999999
- },
- {
-  "umd_tree_cover_loss__year": 2025,
-  "area__ha": 561.45858
- },
- {
-  "umd_tree_cover_loss__year": "null",
-  "area__ha": 425552.09788
- }
-]
+ "glad_alert_events": 163,
+ "narrative": "Total kehilangan tutupan hutan di area ini (mulai 2001) mencapai sekitar 90,886.0 hektar. Lonjakan terbesar pada 2016 (37,249.9 ha). Terdeteksi 163 periode alert deforestasi (GLAD) di area ini."
+}
