@@ -36,7 +36,7 @@ CONCESSION_DATASETS: dict[str, str] = {
 CONCESSION_COUNTRY_COL: dict[str, str] = {
     "gfw_oil_palm": "iso3",
     "gfw_wood_fiber": "iso3",
-    "gfw_managed_forests": "country",
+    "gfw_managed_forests": "iso3",
 }
 
 ALERT_DATASETS: dict[str, str] = {
@@ -50,7 +50,7 @@ class GfwClient:
     def __init__(self, api_key: str = "", cache_dir: Path | None = None, retries: int = 3):
         self.api_key = api_key or GFW_API_KEY
         if not self.api_key:
-            raise RuntimeError("GFW_API_KEY belum diisi — isi dulu di .env atau pass ke GfwClient(api_key=...)")
+            raise RuntimeError("GFW_API_KEY")
         self.cache_dir = Path(cache_dir) if cache_dir else CACHE_DIR
         self.retries = retries
         self._datasets_cache: dict[str, dict] = {}
