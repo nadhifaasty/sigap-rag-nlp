@@ -63,6 +63,10 @@ def _format_context_spasial(spatial_ctx: dict[str, Any], flags: list[str]) -> st
     return "\n".join(lines)
  
  
+MODEL_PRIMARY = "gemini-3.6-flash"
+MODEL_FALLBACKS = ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-1.5-flash"]
+
+
 def answer_question(
     question: str,
     regulasi: list[dict[str, Any]],
@@ -75,10 +79,22 @@ def answer_question(
         f"Konteks Spasial:\n{_format_context_spasial(spatial_ctx, flags or [])}\n\n"
         f"Pertanyaan: {question}"
     )
-    resp = client.models.generate_content(
-        model=MODEL,
-        contents=user_msg,
-        config=types.GenerateContentConfig(system_instruction=SYSTEM_PROMPT),
-    )
-    return resp.text
+
+    models_to_try = [MODEL_PRIMARY] + MODEL_FALLBACKS
+    last_err = None
+
+    for model_name in models_to_try:
+        try:
+            resp = client.models.generate_content(
+                model=model_name,
+                contents=user_msg,
+                config=types.GenerateContentConfig(system_instruction=SYSTEM_PROMPT),
+            )
+            if resp and resp.text:
+                return resp.text
+        except Exception as e:
+            last_err = e
+            continue
+
+    raise RuntimeError(f"Gagal memanggil AI model: {last_err}")
  
