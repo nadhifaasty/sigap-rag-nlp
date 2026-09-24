@@ -64,7 +64,7 @@ def _format_context_spasial(spatial_ctx: dict[str, Any], flags: list[str]) -> st
  
  
 MODEL_PRIMARY = "gemini-3.6-flash"
-MODEL_FALLBACKS = ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-1.5-flash"]
+MODEL_FALLBACKS = ["gemini-2.5-flash", "gemini-3.5-flash", "gemini-flash-latest"]
 
 
 def answer_question(
